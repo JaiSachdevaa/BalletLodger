@@ -1,0 +1,66 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .login-form h1 {
+    margin-bottom: 2rem;
+    color: #2c3e50;
+  }
+  
+  .login-form input {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-image {
+    flex: 1;
+    background-image: url('https://media-hosting.imagekit.io/fab5d62c281f43e4/vote.jpg?Expires=1838463791&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=RMVF7K1K0U4RNx-GVJ5m5XqtoFrr6Is0H5HoodxLR-ftmT4b-LyOmmhu~rROQDw2SEHZRgKfxcK-UfYFK3uNklMGGUe3OWh4pY17VJwT0wiIumDMUGxhBvFIvbNlHG97j3pVNmvsCjG9G1Co3ahd4xQR7Sio8iyoyNL8pjfDyGcovDT80wIHlSmzncZxWuCK0XBlNkp0aPhcJyusAG2D2nMfwf2ESHQoo0qceQ4g3BDN0GJzcXQQSiwdRrIvXumfUqBjxZu2Z8SdS5qxck4ABQTyy5vc6TUTz2sa2BnnK57Xj5gGjVZ2sN2xSIVPBhb7HJSI5sJZEUXzvK0MOuEKow__');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  /* Optional: Overlay text with dark blur effect */
+  .image-placeholder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 0;
+  }
+  
